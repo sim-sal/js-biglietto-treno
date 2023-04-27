@@ -1,0 +1,25 @@
+/* regole generali */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    width: 50%;
+    margin: auto;
+    height: 20vh;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(135, 135, 255);
+    border: 5px solid black;
+    border-radius: 10px;
+}
+
+.container > i{
+    font-size: 50px;
+    color: white;
+    text-shadow: 10px 10px 10px black;
+}
+
