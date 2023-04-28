@@ -2,11 +2,11 @@
 let kmViaggio, userAge, prezzoBiglietto, scontoMinori, scontoOver, messaggio;
 
 // chiedere all’utente il numero di chilometri da percorrere durante il viaggio
-kmViaggio = prompt("Inserisci i km del tuo viaggio");
+kmViaggio = parseInt(prompt("Inserisci i km del tuo viaggio"));
 console.log(kmViaggio);
 
 // chiedere l’età del passeggero.
-userAge = prompt("Inserisci l'età del passeggero");
+userAge = parseInt(prompt("Inserisci l'età del passeggero"));
 console.log(userAge);
 
 // prezzo generico del biglietto
